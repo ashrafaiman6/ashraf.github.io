@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashraf</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+
+    <!--Preloadaer-->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!--Preloadaer End-->
+    
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-inner">
+                <div class="burger">
+                    <i class="fa fa-bars menu-btn"></i>
+                </div>
+                <ul class="item-navbar close">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Join Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!---Home Section-->
+    <section class="home-section" id="home">
+        <div class="container">
+            <div class="inner-home">
+                <div class="prfpic">
+                    <img src="prfimg.png" alt="Profile Picture" class="shadowdark">
+                </div>
+
+                <div class="intro">
+                    <h3>Hello! I am peely</h3>
+                    <div class="social-media">
+                        <a href="https://youtube.com" target="_blank" class="social"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://facebook.com" target="_blank" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <br>
+
+                    <a href="https://youtube.com/watch?v=BcXLZR0Xls8" target= "_blank" class="born">Click here to see how I was born</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Home Section End-->
+
+    <!---About Section-->
+    <section class="section" id="about">
+        <div class="container">
+            <h3 class="subtitle">About Me</h3>
+            <div class="inner-about">
+                <div class="content-about">
+                    <p>
+                        Hello I am agent Peely. I am a banana and I like to dance :).
+                    </p>
+                    <p>
+                        In Chapter 2 Season 3, I was activated and need to defend the island from shadow. I joined ghost under our leader Midas. 
+                    </p>
+                    <p>
+                        I will whatever it takes to make sure shadow takes the L. 
+                    </p>
+                </div>
+
+                <div class="skills shadowdark">
+                    <ul>
+                        <li class ="shooting">Shooting</li>
+                        <li class ="dancing">Dancing</li>
+                        <li class ="potassium">Potassium</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---About Section End-->
+
+    <!---Experience Section-->
+    <section class="section" id="experience">
+        <div class="container">
+            <h3 class="subtitle">Experience</h3>
+            <div class="inner-experience">
+                <div class="frame">
+                    <div class="gallery shadowdark">
+                        <img class="exp" src="unpeely.jpg" alt="unpeely">
+                        <div class="description">When I get hot in the summer, I just unpeel myself</div>
+                    </div>
+                </div>
+
+                <div class="frame">
+                    <div class="gallery shadowdark">
+                        <img class="exp" src="smoothie.jpg" alt="smoothie">
+                        <div class="description">Some idiot even turned me into a smoothie once</div>
+                    </div>
+                </div>
+
+                <div class="frame">
+                    <div class="gallery shadowdark">
+                        <img class="exp" src="p1000.png" alt="p1000">
+                        <div class="description">Luckily that dude built me a cool looking robot suit</div>
+                    </div>
+                </div>
+
+                <div class="frame">
+                    <div class="gallery shadowdark">
+                        <img class="exp" src="bones.jpg" alt="bones">
+                        <div class="description">When I was dead, I will never take the L</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!---Experience Section End-->
+
+
+    <!---Contact Section-->
+    <section class="section" id="contact">
+        <div class="container">
+            <h3 class="subtitle">To join the fight fill up here</h3>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {resetForm()}"></iframe>
+        <form class="contact-form shadowdark" id="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdvY0J-hF7tAsfwtrgnQlMWfOYf7eHDuxD1084NMIcSw070Gg/formResponse" method="post" target="hidden_iframe" role="form" onsubmit="return validateForm()">
+            <div class="input-fields">
+                <input type="text" required class="input" id="name" name="entry.867010579" placeholder="Name">
+                <input type="text" required class="input" id="email" name="entry.814915462" placeholder="Email">
+                <input type="text" required class="input" id="subject" name="entry.1636151677" placeholder="Subject">
+            </div>
+
+            <div class="msg">
+                <textarea required placeholder="Message" id="message" name="entry.985569723"></textarea>
+                <button type="submit" name="submit" class="btn">Send</button>
+                <div id="success" style="color: red;"><br></div>
+            </div>
+        </form>
+        </div>
+    </section>
+    <!---Contact Section End-->
+
+    <!---Copyright Section -->
+    <div class="copyright">
+        &copy; Ashraf Aiman 2020
+    </div>
+    <!---Copyright Section End-->
+
+    <script src="main.js"></script>
+</body>
+</html>
